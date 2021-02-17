@@ -24,8 +24,7 @@
     "@sanity/color-input",
     "mux-input",
     "google-analytics",
-    "@sanity/production-preview",
-    "media"
+    "@sanity/production-preview"
   ],
   "parts": [
     {
@@ -45,8 +44,8 @@
       "path": "./resolvePreviewUrl.js"
     },
     {
-      "implements": "part:@sanity/form-builder/input/image/asset-sources",
-      "path": "./parts/assetSources.js"
+      "implements": "part:@sanity/form-builder/input/image/asset-source",
+      "path": "./parts/assetSource.js"
     }
   ]
 }
