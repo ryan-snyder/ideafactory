@@ -1,7 +1,7 @@
 export default {
     type: 'object',
     name: 'pdfDocument',
-    title: 'pdfDocument',
+    title: 'PDF Document',
     fields: [
       {
         type: 'url',
