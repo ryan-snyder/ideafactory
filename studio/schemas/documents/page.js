@@ -28,7 +28,7 @@ export default {
         { type: 'infoRows' },
         { type: 'ctaColumns' },
         { type: 'ctaPlug' },
-        { type: 'pdfEmbed' },
+        { type: 'pdfDocument' },
       ],
     },
   ],

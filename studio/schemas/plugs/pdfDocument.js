@@ -1,4 +1,4 @@
-export default pdfDocument = {
+export default {
     type: 'object',
     name: 'pdfDocument',
     title: 'pdfDocument',
