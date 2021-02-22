@@ -8,8 +8,8 @@ const Header = ({ showNav, siteTitle, scrolled, navMenuItems = [], textWhite = t
 
   let navActionClass =
     "mx-auto lg:mx-0 hover:underline font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75";
-  navActionClass += !textWhite || !scrolled ? " bg-white text-gray-800" : "";
-  navActionClass += textWhite || scrolled ? " gradient text-white" : "";
+  navActionClass += !textWhite || !scrolled ? " bg-white text-white" : "";
+  navActionClass += textWhite || scrolled ? " gradient" : "";
 
   let navContentClass =
     "w-full flex-grow lg:flex lg:items-center lg:w-auto hidden lg:block mt-2 lg:mt-0 text-black p-4 lg:p-0 z-20";
