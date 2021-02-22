@@ -1,12 +1,12 @@
 export default pdfDocument = {
     type: 'object',
-    name: 'pdfEmbed',
-    title: 'Pdf Embed',
+    name: 'pdfDocument',
+    title: 'PDF document',
     fields: [
       {
         type: 'url',
         name: 'url',
-        description: "Pdf url"
+        description: "PDF url"
       }
     ],
   
