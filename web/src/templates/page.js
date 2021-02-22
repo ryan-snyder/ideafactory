@@ -6,6 +6,7 @@ import InfoRows from "../components/InfoRows";
 import CTAColumns from "../components/cta-columns";
 import CTA from "../components/cta";
 import Pricing from "../components/pricing";
+import PdfDocument from "../components/pdfViewer";
 import { TopWave, BottomWave } from "../components/wave";
 
 import GraphQLErrorList from "../components/graphql-error-list";
@@ -82,6 +83,9 @@ const Page = (props) => {
           break;
         case "ctaPlug":
           el = <CTA key={c._key} {...c} />;
+          break;
+        case "pdfDocument": 
+          el =<PdfDocument key={c._key} {...c} />;
           break;
         case "uiComponentRef":
           switch (c.name) {

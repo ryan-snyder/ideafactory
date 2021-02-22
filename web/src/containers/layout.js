@@ -19,7 +19,7 @@ function LayoutContainer(props) {
     setShowNav(false);
   }
 
-  const { textWhite = false } = props;
+  const { textWhite = true } = props;
 
   return (
     <StaticQuery
