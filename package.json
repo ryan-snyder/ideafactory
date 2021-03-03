@@ -19,6 +19,6 @@
   },
   "dependencies": {
     "dotenv": "^8.2.0",
-    "gatsby-plugin-google-analytics": "^3.0.0"
+    "gatsby-plugin-google-gtag": "^3.0.0"
   }
 }
