@@ -29,6 +29,11 @@ module.exports = {
         watchMode: !isProd,
         overlayDrafts: !isProd
       }
-    }
+    },{
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: process.env.GOGGLE_ANALYTICS,
+      },
+    },
   ]
 };
