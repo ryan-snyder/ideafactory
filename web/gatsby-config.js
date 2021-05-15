@@ -25,6 +25,7 @@ module.exports = {
         },
         pluginConfig: {
           respectDNT: true,
+          head: true,
         }
       },
     },
