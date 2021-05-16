@@ -62,7 +62,7 @@ const Footer = ({ siteTitle }) => (
             </li>
             <li className="mt-2 inline-block mr-2 md:block md:mr-0">
               <a
-                href="/"
+                href="https://discord.com/invite/rv9sJxSuWs"
                 className="no-underline hover:underline text-gray-800 hover:text-orange-500"
               >
                 Discord
