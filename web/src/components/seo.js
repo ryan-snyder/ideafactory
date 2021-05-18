@@ -12,7 +12,7 @@ function SEO({ description, lang, meta, keywords, title, image, bodyAttr, gradie
     <StaticQuery
       query={detailsQuery}
       render={data => {
-        const metaDescription = description || (data.site && data.site.description) || "";
+        const metaDescription = "The Kickstarter of the crypto world, Idea Factory is an open, Sybil resistant market for Ideas focused on promoting the creation of ideas and Communities!";
         const siteTitle = (data.site && data.site.title) || "";
         const siteAuthor = (data.site && data.site.author && data.site.author.name) || "";
         const metaImage =
