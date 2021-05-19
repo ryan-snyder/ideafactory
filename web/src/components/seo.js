@@ -99,7 +99,7 @@ function SEO({ description, lang, meta, keywords, title, image, bodyAttr, gradie
 SEO.defaultProps = {
   lang: "en",
   meta: [],
-  keywords: ["ideas", "crypto", "Idea Factory", "decentralized kickstarter", "kickstarter", "DAO"]
+  keywords: ["ideas", "crypto", "Idea Factory", "decentralized kickstarter", "kickstarter", "startup incubator", "best startup incubator", "free startup incubator"]
 };
 
 SEO.propTypes = {
