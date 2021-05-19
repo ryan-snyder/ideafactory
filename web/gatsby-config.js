@@ -60,7 +60,7 @@ module.exports = {
         overlayDrafts: !isProd
       }
     },
-    "gatsby-plugin-sitemap",
+    `gatsby-plugin-advanced-sitemap`,
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
